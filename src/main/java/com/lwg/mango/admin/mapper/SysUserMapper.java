@@ -31,6 +31,5 @@ public interface SysUserMapper {
 
     int updateByPrimaryKey(SysUser record);
 
-//    查询全部
     List<SysUser> findAll();
 }
