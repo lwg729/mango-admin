@@ -1,0 +1,16 @@
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 109837
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.96.48.41:3306/mango?useUnicode=true&characterEncoding=utf8&useSSL=false
+mybatis-plus:
+  mapper-locations: classpath:com/lwg/mango/mapper/*.xml
+logging:
+  level:
+    com.lwg.practise: debug
