@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lwg</groupId>
-    <artifactId>mango</artifactId>
+    <artifactId>mango-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mango-admin</name>
     <description>project for Spring Boot</description>
@@ -150,7 +150,7 @@
             </plugin>
         </plugins>
 
-        <!--<resources>
+        <resources>
             <resource>
                 <directory>src/main/java</directory>
                 <includes>
@@ -170,7 +170,7 @@
                     <include>**/*.*</include>
                 </includes>
             </resource>
-        </resources>-->
+        </resources>
     </build>
 
 </project>

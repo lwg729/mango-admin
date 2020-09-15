@@ -3,8 +3,11 @@ package com.lwg.mango.admin.mapper;
 import com.lwg.mango.admin.pojo.SysUser;
 import com.lwg.mango.admin.pojo.SysUserExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+@Mapper
 public interface SysUserMapper {
     long countByExample(SysUserExample example);
 
@@ -27,4 +30,7 @@ public interface SysUserMapper {
     int updateByPrimaryKeySelective(SysUser record);
 
     int updateByPrimaryKey(SysUser record);
+
+//    查询全部
+    List<SysUser> findAll();
 }
