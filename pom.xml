@@ -11,7 +11,7 @@
     <groupId>com.lwg</groupId>
     <artifactId>mango</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mango</name>
+    <name>mango-admin</name>
     <description>project for Spring Boot</description>
 
     <properties>
